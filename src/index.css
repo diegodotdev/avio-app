@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200 text-[#111111] text-sm;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
